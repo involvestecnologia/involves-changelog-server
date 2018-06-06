@@ -23,8 +23,12 @@ class Env {
     return process.env.NODE_ENV || 'development';
   }
 
-  static get MONGO_URL() {
-    return process.env.MONGO_URL || 'mongodb://localhost:27017/involves-changelog';
+  static get HTTP_LOG_CONFIG() {
+    return process.env.HTTP_LOG_CONFIG || 'dev';
+  }
+
+  static get PORT() {
+    return process.env.PORT || 3000;
   }
 }
 
