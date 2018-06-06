@@ -1,5 +1,5 @@
 {
-  "name": "involves-changelog-serve",
+  "name": "involves-changelog-server",
   "version": "0.2.0",
   "main": "src",
   "scripts": {
